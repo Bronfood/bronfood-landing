@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 
 const navLinks = [
   { label: "О сервисе", href: "#about" },
@@ -17,8 +18,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-card/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#" className="text-xl font-bold tracking-tight text-foreground">
-          Bronfood
+        <a href="https://bronfood.kz/">
+          <Image src="/Logo.png" alt="Bronfood logo" width={200} height={100} />
         </a>
 
         <nav className="hidden items-center gap-8 md:flex" aria-label="Main navigation">
