@@ -2,9 +2,9 @@ import { Mail, Phone, MapPin, Building2 } from "lucide-react"
 import { Separator } from "@/components/ui/separator"
 
 const legalLinks = [
-  { label: "Публичная оферта", href: "#" },
-  { label: "Пользовательское соглашение", href: "#" },
-  { label: "Политика конфиденциальности", href: "#" },
+  { label: "Публичная оферта", href: "/landing/Bronfood_Oferta.docx" },
+  { label: "Пользовательское соглашение", href: "/landing/Bronfood_User_Agreement.docx" },
+  { label: "Политика конфиденциальности", href: "/landing/Bronfood_Privacy_Policy.docx" },
   { label: "Правила возврата", href: "#" },
 ]
 
@@ -74,6 +74,7 @@ export function Footer() {
                 <a
                   key={link.label}
                   href={link.href}
+                  download
                   className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground"
                 >
                   {link.label}
