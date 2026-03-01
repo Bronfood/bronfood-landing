@@ -38,6 +38,9 @@ export function PaymentSection() {
           <p className="mt-4 text-muted-foreground">
             {"Безопасная онлайн-оплата через сертифицированного провайдера"}
           </p>
+          <a href="https://ioka.kz">
+          {"https://ioka.kz"}
+          </a>
         </div>
 
         <div className="mx-auto grid max-w-4xl gap-4">
