@@ -7,8 +7,8 @@ export function HeroSection() {
     <section id="about" className="py-5 md:py-28">
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-col sm:flex-row">
-          <div className="m-auto">
-            <Image className="" src="/landing/mobileApp.png" alt="Bronfood mobile app" width={200} height={300} />
+          <div className="m-auto relative h-50 aspect-2/3 sm:h-75">
+            <Image className="" src="/landing/mobileApp.png" alt="Bronfood mobile app" fill />
           </div>
           <div className="mx-auto max-w-3xl text-center">
             <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-1.5 text-xs font-medium text-muted-foreground">
