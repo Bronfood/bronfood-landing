@@ -24,7 +24,7 @@ export function HeroSection() {
               {"Цифровая платформа для предварительного заказа еды на вынос (самовывоз) из кофеен и заведений общественного питания."}
             </p>
             <a href="https://bronfood.kz/">
-              <button className="w-sm h-12 rounded-full bg-[#ff8f0b] border-none text-white font-medium mt-6 cursor-pointer">Войти в приложение</button>
+              <button className="w-full sm:w-sm h-12 rounded-full bg-[#ff8f0b] border-none text-white font-medium mt-6 cursor-pointer">Войти в приложение</button>
             </a>
           </div>
         </div>
