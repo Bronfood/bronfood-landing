@@ -1,9 +1,10 @@
 import { ShoppingBag, Clock, CreditCard } from "lucide-react"
 import Image from "next/image"
+import { Button } from "./ui/button"
 
 export function HeroSection() {
   return (
-    <section id="about" className="py-20 md:py-28">
+    <section id="about" className="py-5 md:py-28">
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-col sm:flex-row">
           <div className="m-auto">
@@ -22,6 +23,9 @@ export function HeroSection() {
             <p className="mx-auto mt-6 max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">
               {"Цифровая платформа для предварительного заказа еды на вынос (самовывоз) из кофеен и заведений общественного питания."}
             </p>
+            <a href="https://bronfood.kz/">
+              <button className="w-sm h-12 rounded-full bg-[#ff8f0b] border-none text-white font-medium mt-6 cursor-pointer">Войти в приложение</button>
+            </a>
           </div>
         </div>
         <div className="mx-auto mt-14 grid max-w-4xl gap-6 md:grid-cols-3">
